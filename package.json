@@ -1,0 +1,29 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "This nodejs application is used for authenication of users",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MallelaManish/nodejs-authentication.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Manish Mallela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MallelaManish/nodejs-authentication/issues"
+  },
+  "homepage": "https://github.com/MallelaManish/nodejs-authentication#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.4"
+  }
+}
